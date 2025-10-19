@@ -43,21 +43,9 @@
     "branch": "main",
     "commit": "1ee5c1fd068c81f9dd06483e639c2aa4587dc197"
   },
-  "gruber-darker.nvim": {
-    "branch": "main",
-    "commit": "59643c57ae868a60968cca75bac5ec2de7695dc2"
-  },
   "grug-far.nvim": {
     "branch": "main",
     "commit": "3e72397465f774b01aa38e4fe8e6eecf23d766d9"
-  },
-  "gruvbox.nvim": {
-    "branch": "main",
-    "commit": "5e0a460d8e0f7f669c158dedd5f9ae2bcac31437"
-  },
-  "kanagawa.nvim": {
-    "branch": "master",
-    "commit": "aef7f5cec0a40dbe7f3304214850c472e2264b10"
   },
   "lazy.nvim": {
     "branch": "main",
@@ -142,10 +130,6 @@
   "snacks.nvim": {
     "branch": "main",
     "commit": "cd68f196fe0c7e6710750b81e1081893ff8b6a63"
-  },
-  "themery.nvim": {
-    "branch": "main",
-    "commit": "bfa58f4b279d21cb515b28023e1b68ec908584b2"
   },
   "todo-comments.nvim": {
     "branch": "main",
