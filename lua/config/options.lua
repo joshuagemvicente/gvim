@@ -5,4 +5,3 @@
 vim.opt.guicursor = ""
 vim.g.snacks_animate = false
 vim.g.snacks_animate_scroll = false
--- what the fucky
