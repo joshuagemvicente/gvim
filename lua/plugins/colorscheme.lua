@@ -6,20 +6,20 @@ return {
       require("themery").setup({
         themes = {
           "tokyonight",
-          "catppuccin",
           "gruvbox",
           "kanagawa",
           "gruber-darker",
+          "everforest",
         },
         -- add the config here
       })
     end,
   },
   { "folke/tokyonight.nvim" },
-  { "catpuccin/nvim", name = "catppuccin" },
   { "ellisonleao/gruvbox.nvim" },
   { "rebelot/kanagawa.nvim" },
   { "blazkowolf/gruber-darker.nvim" },
+  { "https://github.com/sainnhe/everforest.git" },
 }
 
 -- return {
