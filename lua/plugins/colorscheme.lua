@@ -9,9 +9,9 @@ return {
           "gruvbox",
           "kanagawa",
           "gruber-darker",
+          "slack",
           "everforest",
         },
-        -- add the config here
       })
     end,
   },
@@ -19,6 +19,7 @@ return {
   { "ellisonleao/gruvbox.nvim" },
   { "rebelot/kanagawa.nvim" },
   { "blazkowolf/gruber-darker.nvim" },
+  { "ntk148v/slack.nvim" },
   { "https://github.com/sainnhe/everforest.git" },
 }
 
