@@ -146,7 +146,12 @@ return {
 
       hidden = true,
       ignored = true,
-      exclude = excluded,
+      exclude = {
+        ".git",
+        ".next",
+        ".cursor",
+        "node_modules",
+      },
     },
   },
 }
