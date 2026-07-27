@@ -1,48 +1,45 @@
 return {
   {
-    "zaldih/themery.nvim",
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+  {
+    "ellisonleao/gruvbox.nvim",
+    opts = {
+      transparent_background = true,
+    },
+  },
+  {
+    "rebelot/kanagawa.nvim",
+    opts = {
+      transparent = true,
+    },
+  },
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    opts = {
+      transparent_background = true,
+    },
+  },
+  {
+    "blazkowolf/gruber-darker.nvim",
+    opts = {
+      transparent = true,
+    },
+  },
+  {
+    "ntk148v/slack.nvim",
+    opts = {
+      transparent = true,
+    },
+  },
+  {
+    "https://github.com/sainnhe/everforest.git",
     lazy = false,
     config = function()
-      require("themery").setup({
-        themes = {
-          "tokyonight",
-          "gruvbox",
-          "kanagawa",
-          "gruber-darker",
-          "slack",
-          "everforest",
-        },
-      })
+      vim.g.everforest_transparent_background = 2
     end,
   },
-  { "folke/tokyonight.nvim" },
-  { "ellisonleao/gruvbox.nvim" },
-  { "rebelot/kanagawa.nvim" },
-  { "blazkowolf/gruber-darker.nvim" },
-  { "ntk148v/slack.nvim" },
-  { "https://github.com/sainnhe/everforest.git" },
 }
-
--- return {
---   {
---     "zaldih/themery.nvim",
---     lazy = false,
---     config = function()
---       require("themery").setup({
---         themes = {
---           "tokyonight",
---           "catppuccin",
---           "gruvbox",
---           "kanagawa",
---           "gruber-darker",
---         },
---         -- add the config here
---       })
---     end,
---   },
---   { "folke/tokyonight.nvim" },
---   { "catpuccin/nvim", name = "catppuccin" },
---   { "ellisonleao/gruvbox.nvim" },
---   { "rebelot/kanagawa.nvim" },
---   { "blazkowolf/gruber-darker.nvim" },
--- }
